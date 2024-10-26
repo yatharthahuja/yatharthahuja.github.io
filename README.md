@@ -1,2 +1,2 @@
 
-[my portfolio website](https://www.yatharthahuja.github.io)
+[my portfolio website](www.yatharthahuja.github.io)
