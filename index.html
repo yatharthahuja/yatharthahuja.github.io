@@ -3,55 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>John Doe | Portfolio</title>
+  <title>Portfolio - John Doe</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Header -->
   <header>
     <nav>
       <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="work.html">Work Experience</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="blog.html">Blog</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <!-- Hero Section -->
-    <section id="hero">
-      <div class="hero-content">
-        <h1>Hi, I'm John Doe.</h1>
-        <p>A software engineer and AI enthusiast creating impactful solutions with technology.</p>
-      </div>
-    </section>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>John Doe</h1>
+      <p>A creative developer focused on building impactful digital experiences.</p>
+      <a href="#work" class="btn">Explore My Work</a>
+    </div>
+  </section>
 
-    <!-- About Section -->
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I am a full-stack developer with 5+ years of experience in building scalable applications. My expertise lies in developing user-friendly interfaces, optimizing backend performance, and applying AI to solve complex problems.
-      </p>
-      <p>
-        I have worked with clients worldwide and delivered projects that range from e-commerce solutions to machine learning applications.
-      </p>
-    </section>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a full-stack developer with a passion for crafting user-focused web applications. With expertise in technologies like React, Node.js, and Python, I deliver scalable and intuitive solutions.
+    </p>
+  </section>
 
-    <!-- News Section -->
-    <section id="news">
-      <h2>Latest News</h2>
-      <ul>
-        <li><strong>January 2025:</strong> Published a blog post on "Best Practices for Scalable Web Apps."</li>
-        <li><strong>December 2024:</strong> Featured as a speaker at the "Tech Innovations 2024" conference.</li>
-        <li><strong>November 2024:</strong> Released a personal project: an AI-powered note-taking tool.</li>
-      </ul>
-    </section>
-  </main>
+  <!-- Work Section -->
+  <section id="work" class="work">
+    <h2>My Work</h2>
+    <div class="work-item">
+      <h3>Project 1</h3>
+      <p>AI-powered chatbot built with Python and TensorFlow for seamless customer interaction.</p>
+    </div>
+    <div class="work-item">
+      <h3>Project 2</h3>
+      <p>E-commerce platform developed with React, Node.js, and MongoDB.</p>
+    </div>
+    <div class="work-item">
+      <h3>Project 3</h3>
+      <p>Data visualization dashboard leveraging D3.js for real-time analytics.</p>
+    </div>
+  </section>
 
-  <footer>
-    <h3>Connect with Me</h3>
+  <!-- Footer Section -->
+  <footer id="contact">
+    <h2>Let's Connect</h2>
     <div class="social-links">
       <a href="https://github.com/johndoe" target="_blank">GitHub</a>
       <a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
