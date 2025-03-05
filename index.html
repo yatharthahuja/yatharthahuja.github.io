@@ -480,11 +480,28 @@
           <td style="padding:0px">
             <br>
             <p style="text-align:left;font-size:medium;">
-              <i>Find more details about my projects and expereinces<a href="https://github.com/jonbarron/jonbarron_website"> here</a>.</i>
+              <i>Find more details about my projects and experiences
+                <a href="https://docs.google.com/document/d/1gIo16MCL-Sy2da9XnT6bacQk121y3bdY/edit?usp=sharing&ouid=100174806137199763561&rtpof=true&sd=true"> here</a>.</i>
             </p>
           </td>
         </tr>
       </tbody></table>
+
+      <br><br><br>
+      <p class="counter-box">Visitor Count: <span id="visitor-count">Loading...</span></p>
+
+      <script>
+          // Use localStorage to track visits
+          if (!localStorage.getItem("hasVisited")) {
+              localStorage.setItem("hasVisited", "true"); 
+              let count = localStorage.getItem("visitorCount") || 0;
+              count++;
+              localStorage.setItem("visitorCount", count);
+          }
+          
+          // Display the count
+          document.getElementById("visitor-count").textContent = localStorage.getItem("visitorCount") || 1;
+      </script>
 
     <br><br><br>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
