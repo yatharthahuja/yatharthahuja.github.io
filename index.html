@@ -55,6 +55,7 @@
   <!-- ===== Hero ===== -->
   <header class="hero">
     <div class="hero-grid"></div>
+    <div class="hero-portrait" style="background-image:url('images/yatharth_profile.jpeg')" aria-hidden="true"></div>
     <div class="container hero-inner">
       <div class="hero-text reveal">
         <span class="hero-eyebrow mono"><span class="live"></span>Applied Scientist · Robotics @ General Motors</span>
@@ -65,20 +66,48 @@
             View work
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
           </a>
-          <a class="btn btn-ghost" href="mailto:work.yatharth@gmail.com">Get in touch</a>
         </div>
 
-        <div class="social-row">
-          <a href="https://github.com/yatharthahuja" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://www.linkedin.com/in/yatharth-ahuja/" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://scholar.google.com/citations?user=Z2nTebcAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Scholar</a>
-          <a href="https://x.com/YatharthAhuja3" target="_blank" rel="noopener">X</a>
-          <a href="mailto:work.yatharth@gmail.com">Email</a>
+        <div class="hero-social">
+          <span class="hero-social-label mono">Connect</span>
+          <div class="social-row social-icons">
+            <a href="https://github.com/yatharthahuja" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.7.4-1.3.7-1.6-2.5-.3-5.2-1.3-5.2-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.2 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6a11.5 11.5 0 0 0 7.9-10.9C23.5 5.7 18.3.5 12 .5z"></path></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/yatharth-ahuja/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"></path></svg>
+            </a>
+            <a href="https://scholar.google.com/citations?user=Z2nTebcAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 9l11 7 9-5.73V17h2V9L12 2zM5 13.18v3.82L12 21l7-4v-3.82l-7 4.45-7-4.45z"></path></svg>
+            </a>
+            <a href="https://x.com/YatharthAhuja3" target="_blank" rel="noopener" aria-label="X" title="X">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.65l-5.21-6.81-5.96 6.81H1.69l7.73-8.84L1.25 2.25h6.82l4.71 6.23 5.46-6.23zm-1.16 17.52h1.83L7.01 4.13H5.05l12.03 15.64z"></path></svg>
+            </a>
+            <a href="mailto:work.yatharth@gmail.com" aria-label="Email" title="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 6-10 7L2 6"></path></svg>
+            </a>
+          </div>
         </div>
       </div>
-      <div class="hero-photo reveal d2">
-        <img src="images/yatharth_profile.jpeg" alt="Yatharth Ahuja">
-      </div>
+    </div>
+
+    <!-- Fixed vertical social rail (desktop) -->
+    <div class="social-rail" aria-label="Social links">
+      <a href="https://github.com/yatharthahuja" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.7.4-1.3.7-1.6-2.5-.3-5.2-1.3-5.2-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.2 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6a11.5 11.5 0 0 0 7.9-10.9C23.5 5.7 18.3.5 12 .5z"></path></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/yatharth-ahuja/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"></path></svg>
+      </a>
+      <a href="https://scholar.google.com/citations?user=Z2nTebcAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 9l11 7 9-5.73V17h2V9L12 2zM5 13.18v3.82L12 21l7-4v-3.82l-7 4.45-7-4.45z"></path></svg>
+      </a>
+      <a href="https://x.com/YatharthAhuja3" target="_blank" rel="noopener" aria-label="X" title="X">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.65l-5.21-6.81-5.96 6.81H1.69l7.73-8.84L1.25 2.25h6.82l4.71 6.23 5.46-6.23zm-1.16 17.52h1.83L7.01 4.13H5.05l12.03 15.64z"></path></svg>
+      </a>
+      <a href="mailto:work.yatharth@gmail.com" aria-label="Email" title="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 6-10 7L2 6"></path></svg>
+      </a>
     </div>
   </header>
 
@@ -160,27 +189,71 @@
         <span class="eyebrow mono">// news</span>
         <h2>Recent updates</h2>
       </div>
-      <div class="reveal d1">
-        <ul class="news news-scroll">
-          <li><span class="when">Jun '26</span><span class="what">Served as a reviewer for the IEEE Robotics and Automation Letters (RA-L) journal.</span></li>
-          <li><span class="when">Jun '26</span><span class="what">Presented our work on ExpReS-VLA at <strong>ICRA '26</strong> in Vienna, Austria.</span></li>
-          <li><span class="when">Jun '26</span><span class="what">Attended <strong>CVPR '26</strong> in Denver as part of the GM Research team.</span></li>
-          <li><span class="when">Apr '26</span><span class="what">Served as a reviewer for the IEEE CoDIT '26 conference.</span></li>
-          <li><span class="when">Feb '26</span><span class="what">Joined <strong>General Motors</strong> as an Applied Scientist on the Robotics team.</span></li>
-          <li><span class="when">Jan '26</span><span class="what"><a href="https://arxiv.org/abs/2511.06202" target="_blank" rel="noopener">ExpReS-VLA</a> accepted at ICRA '26.</span></li>
-          <li><span class="when">Dec '25</span><span class="what">Attended NeurIPS in San Diego.</span></li>
-          <li><span class="when">Nov '25</span><span class="what">Released our work on a continual-learning system for VLAs on <a href="https://arxiv.org/abs/2511.06202" target="_blank" rel="noopener">arXiv</a>.</span></li>
-          <li><span class="when">Sep '25</span><span class="what">Submitted our work on lifelong-learning VLA systems to ICRA '26.</span></li>
-          <li><span class="when">Jun '25</span><span class="what">Moved to the SF Bay Area to join <strong>Maven Robotics</strong> as a Robotics &amp; AI Engineer.</span></li>
-          <li><span class="when">May '25</span><span class="what">Graduated from Carnegie Mellon University's Robotics Institute.</span></li>
-          <li><span class="when">Apr '25</span><span class="what">Attended the Project Eagle Hackathon in San Francisco.</span></li>
-          <li><span class="when">Feb '25</span><span class="what">Joined the JP Morgan Chase AI Maker Space, working on Visual SLAM.</span></li>
-          <li><span class="when">Nov '24</span><span class="what">Deployed DripBot — an industrial chemical-cleaning robot — as a capstone sponsored by Koppers Inc.</span></li>
-          <li><span class="when">Sep '24</span><span class="what">Joined the Momentum Robotics Lab at CMU, focusing on active perception in manipulation.</span></li>
-          <li><span class="when">Aug '24</span><span class="what">Completed an Image Analysis internship at Glimpse Engineering, optimizing AI pipelines for metal-ion cells.</span></li>
-          <li><span class="when">Mar '23</span><span class="what">Accepted admission to Carnegie Mellon University's Fall 2023 MRSD program.</span></li>
-          <li><span class="when">Aug '22</span><span class="what">Graduated from Delhi Technological University (B.Tech, Electrical Engineering) — First Class with Distinction.</span></li>
-        </ul>
+      <div class="reveal d1 news-years">
+
+        <details class="news-year" open>
+          <summary>
+            <span class="ny-year">2026</span>
+            <svg class="ny-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+          </summary>
+          <ul class="news">
+            <li><span class="when">Jun</span><span class="what">Served as a reviewer for the IEEE Robotics and Automation Letters (RA-L) journal.</span></li>
+            <li><span class="when">Jun</span><span class="what">Presented our work on ExpReS-VLA at <strong>ICRA '26</strong> in Vienna, Austria.</span></li>
+            <li><span class="when">Jun</span><span class="what">Attended <strong>CVPR '26</strong> in Denver as part of the GM Research team.</span></li>
+            <li><span class="when">Apr</span><span class="what">Served as a reviewer for the IEEE CoDIT '26 conference.</span></li>
+            <li><span class="when">Feb</span><span class="what">Joined <strong>General Motors</strong> as an Applied Scientist on the Robotics team.</span></li>
+            <li><span class="when">Jan</span><span class="what"><a href="https://arxiv.org/abs/2511.06202" target="_blank" rel="noopener">ExpReS-VLA</a> accepted at ICRA '26.</span></li>
+          </ul>
+        </details>
+
+        <details class="news-year" open>
+          <summary>
+            <span class="ny-year">2025</span>
+            <svg class="ny-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+          </summary>
+          <ul class="news">
+            <li><span class="when">Dec</span><span class="what">Attended NeurIPS in San Diego.</span></li>
+            <li><span class="when">Nov</span><span class="what">Released our work on a continual-learning system for VLAs on <a href="https://arxiv.org/abs/2511.06202" target="_blank" rel="noopener">arXiv</a>.</span></li>
+            <li><span class="when">Sep</span><span class="what">Submitted our work on lifelong-learning VLA systems to ICRA '26.</span></li>
+            <li><span class="when">Jun</span><span class="what">Moved to the SF Bay Area to join <strong>Maven Robotics</strong> as a Robotics &amp; AI Engineer.</span></li>
+            <li><span class="when">May</span><span class="what">Graduated from Carnegie Mellon University's Robotics Institute.</span></li>
+            <li><span class="when">Apr</span><span class="what">Attended the Project Eagle Hackathon in San Francisco.</span></li>
+            <li><span class="when">Feb</span><span class="what">Joined the JP Morgan Chase AI Maker Space, working on Visual SLAM.</span></li>
+          </ul>
+        </details>
+
+        <details class="news-year">
+          <summary>
+            <span class="ny-year">2024</span>
+            <svg class="ny-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+          </summary>
+          <ul class="news">
+            <li><span class="when">Nov</span><span class="what">Deployed DripBot — an industrial chemical-cleaning robot — as a capstone sponsored by Koppers Inc.</span></li>
+            <li><span class="when">Sep</span><span class="what">Joined the Momentum Robotics Lab at CMU, focusing on active perception in manipulation.</span></li>
+            <li><span class="when">Aug</span><span class="what">Completed an Image Analysis internship at Glimpse Engineering, optimizing AI pipelines for metal-ion cells.</span></li>
+          </ul>
+        </details>
+
+        <details class="news-year">
+          <summary>
+            <span class="ny-year">2023</span>
+            <svg class="ny-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+          </summary>
+          <ul class="news">
+            <li><span class="when">Mar</span><span class="what">Accepted admission to Carnegie Mellon University's Fall 2023 MRSD program.</span></li>
+          </ul>
+        </details>
+
+        <details class="news-year">
+          <summary>
+            <span class="ny-year">2022</span>
+            <svg class="ny-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+          </summary>
+          <ul class="news">
+            <li><span class="when">Aug</span><span class="what">Graduated from Delhi Technological University (B.Tech, Electrical Engineering) — First Class with Distinction.</span></li>
+          </ul>
+        </details>
+
       </div>
     </div>
   </section>
@@ -192,8 +265,8 @@
       <div class="footer-links">
         <a href="pages/experience.html">Work</a>
         <a href="pages/projects.html">Projects</a>
-        <a href="pages/writing.html">Writing</a>
-        <a href="pages/beyond.html">Beyond</a>
+        <!-- <a href="pages/writing.html">Writing</a> -->
+        <!-- <a href="pages/beyond.html">Beyond</a> -->
         <a href="mailto:work.yatharth@gmail.com">Email</a>
       </div>
     </div>
