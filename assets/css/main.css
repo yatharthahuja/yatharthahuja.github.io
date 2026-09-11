@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Karla:wght@400;500;600;700&display=swap');
 /* =========================================================
    Yatharth Ahuja — portfolio
    Dark-minimal theme · shared across all pages
@@ -633,3 +634,31 @@ body.rustic .place:hover { transform: none; border-color: var(--accent-line); }
 body.rustic .btn-primary { color: #faf6ee; }
 body.rustic .btn-primary:hover { transform: none; box-shadow: none; }
 body.rustic .cta-band { background: var(--surface); }
+
+/* Shared warm portfolio theme */
+body.warm{--bg:#f6f3ec;--bg-soft:#f6f3ec;--surface:#faf8f2;--surface-2:#eeeade;--text:#424438;--text-strong:#353a2e;--muted:#6b6d60;--faint:#737467;--accent:#667044;--accent-soft:#e6e8db;--accent-line:#a8ad91;--border:#dcdccf;--border-strong:#c5c8b5;--radius:5px;--radius-sm:4px;--shadow:0 8px 24px -20px #343d26; font-family:'Karla',Arial,sans-serif;transition:none}
+body.warm::before,body.warm .hero-grid,body.warm .brand .dot,body.warm .social-rail{display:none}
+body.warm h1,body.warm h2,body.warm h3,body.warm h4,body.warm .brand{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;letter-spacing:-.015em}
+body.warm .brand{font-size:24px}body.warm .site-nav{background:var(--bg);backdrop-filter:none;border-bottom:1px solid var(--border)}
+body.warm .hero{padding:64px 0 38px}body.warm .hero h1{font-size:clamp(2.8rem,5.4vw,4.2rem);font-weight:500;line-height:1.08;max-width:700px}
+body.warm .hero h1 .grad{background:none;-webkit-text-fill-color:var(--accent);color:var(--accent)}
+body.warm .hero-sub{font-size:18px;line-height:1.7;color:var(--muted);max-width:490px}
+body.warm .hero-portrait{opacity:.09;filter:sepia(.25) saturate(.55)}
+body.warm .hero-social{display:block;margin-top:25px}body.warm .hero-social-label{font-size:12px}
+body.warm .mono,body.warm .eyebrow,body.warm .tag,body.warm .pin{font-family:'Karla',Arial,sans-serif;font-style:normal;letter-spacing:.08em;font-size:13px}
+body.warm .section{padding:38px 0}body.warm .section-head h2{font-size:35px}body.warm .page-head h1{font-size:48px;font-weight:500}
+body.warm .card{box-shadow:none;border-color:var(--border);border-radius:5px}body.warm .card h3{font-size:25px}
+body.warm .card:hover,body.warm .place:hover,body.warm .btn:hover{transform:none;box-shadow:none}
+body.warm .card::before,body.warm .card::after{display:none}body.warm .cta-band{background:var(--surface)}
+body.warm .reveal{opacity:1;transform:none;transition:none}body.warm .btn-primary{color:var(--bg)}
+body.warm .nav-links a{padding-inline:9px;font-size:14px}body.warm .nav-cta{border:none;font-weight:400}
+body.warm .about-grid .lead{font-size:18px}body.warm .site-footer{margin-top:24px}
+@media(max-width:760px){body.warm .hero{padding-top:40px}body.warm .hero-portrait{opacity:.05}body.warm .nav-links a{padding:12px}body.warm .page-head h1{font-size:38px}}
+
+/* Warm light and dark palettes share the same restrained layout. */
+body.warm .theme-toggle{display:inline-flex}
+body.warm .hero-portrait{opacity:.19}
+[data-theme="light"] body.warm .hero-portrait{opacity:.19}
+[data-theme="dark"] body.warm{--bg:#252720;--bg-soft:#252720;--surface:#2e3128;--surface-2:#35382e;--text:#deded1;--text-strong:#f2f0e3;--muted:#b9bcaa;--faint:#a7ab98;--accent:#bec596;--accent-soft:#3b422e;--accent-line:#777f5b;--border:#454b3b;--border-strong:#626b51;--shadow:0 8px 24px -20px #000}
+[data-theme="dark"] body.warm .hero-portrait{opacity:.24}
+@media(max-width:760px){body.warm .hero-portrait,[data-theme="light"] body.warm .hero-portrait{opacity:.13}[data-theme="dark"] body.warm .hero-portrait{opacity:.17}}
